@@ -3,11 +3,19 @@ package com.java8pratico.example;
 public class Usuario {
     private String nome;
     private int pontos;
-    private boolean moderador;
+    private boolean moderador = false;
 
     public Usuario(String nome, int pontos) {
         this.nome = nome;
         this.pontos = pontos;
+    }
+
+    public Usuario(String nome) {
+        this.nome = nome;
+    }
+
+    public Usuario() {
+
     }
 
     public String getNome() {
@@ -30,7 +38,16 @@ public class Usuario {
         return moderador;
     }
 
-    public void setModerador(boolean moderador) {
-        this.moderador = moderador;
+    public void tornaModerador() {
+        this.moderador = true;
+    }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nome='" + nome + '\'' +
+                ", pontos=" + pontos +
+                ", moderador=" + moderador +
+                '}';
     }
 }
