@@ -1,4 +1,4 @@
-package com.java8pratico.example;
+package java8pratico.example;
 
 public class Usuario {
     private String nome;

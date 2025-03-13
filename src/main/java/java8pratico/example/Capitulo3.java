@@ -1,4 +1,4 @@
-package com.java8pratico.example;
+package java8pratico.example;
 
 public class Capitulo3 {
     public static void main(String[] args) {

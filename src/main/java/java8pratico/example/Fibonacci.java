@@ -1,4 +1,4 @@
-package com.java8pratico.example;
+package java8pratico.example;
 
 import java.util.function.IntSupplier;
 import java.util.stream.IntStream;

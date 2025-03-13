@@ -1,9 +1,7 @@
-package com.java8pratico.example;
+package java8pratico.example;
 
 import java.util.*;
 import java.util.function.BiFunction;
-
-import static java.util.stream.Collectors.toList;
 
 public class Capitulo7 {
 

@@ -1,4 +1,4 @@
-package com.java8pratico.java8;
+package java8pratico.java8;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

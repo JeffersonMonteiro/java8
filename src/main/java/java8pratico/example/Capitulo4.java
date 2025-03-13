@@ -1,10 +1,8 @@
-package com.java8pratico.example;
+package java8pratico.example;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
 
 public class Capitulo4 {
 
